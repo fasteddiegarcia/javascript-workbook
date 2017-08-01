@@ -3,13 +3,13 @@
 // Create an object and assign it to a variable named "partnerObj"
 // Make 5 key:value pairs and 1 method
 const partnerObj = {
-    firstName: "Chase",
-    lastName: "Turner",
-    age: 24,
-    hairColor: "Black",
-    fullName() {
-      return `Hello, my name is ${this.firstName} ${this.lastName}`;
-    }
+  firstName: "Chase",
+  lastName: "Turner",
+  age: 24,
+  hairColor: "Black",
+  fullName() {
+    return `Hello, my name is ${this.firstName} ${this.lastName}`;
+  }
 };
 
 // Print out 2 values of the partnerObj
