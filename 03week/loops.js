@@ -21,7 +21,7 @@ const carsInReverse = [
 
 function showCars(listOfCars) {
   for (let i = 0; i < listOfCars.length; i++) {
-  console.log(listOfCars[i]);
+    console.log(listOfCars[i]);
   }
 }
 showCars(carsInReverse);
