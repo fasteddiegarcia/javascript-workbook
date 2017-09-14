@@ -9,6 +9,5 @@ ReactDOM.render(
   <MuiThemeProvider>
     <App />
   </MuiThemeProvider>,
-  document.getElementById('top-stories')
-);
+  document.getElementById('root'));
 registerServiceWorker();
